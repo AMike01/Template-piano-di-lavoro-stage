@@ -11,94 +11,57 @@
 % Data di approvazione del piano da parte del tutor interno; nel formato GG Mese AAAA
 % compilare inserendo al posto di GG 2 cifre per il giorno, e al posto di 
 % AAAA 4 cifre per l'anno
-\newcommand{\dataApprovazione}{Data}
+\newcommand{\dataApprovazione}{30 Agosto 2024}
 
 % Dati dello Studente
-\newcommand{\nomeStudente}{Pinco}
-\newcommand{\cognomeStudente}{Pallino}
-\newcommand{\matricolaStudente}{1000000}
-\newcommand{\emailStudente}{mail@studenti.unipd.it}
-\newcommand{\telStudente}{+ 39 000 00 00 000}
+\newcommand{\nomeStudente}{Alberto}
+\newcommand{\cognomeStudente}{Michelazzo}
+\newcommand{\matricolaStudente}{2010007}
+\newcommand{\emailStudente}{alberto.michelazzo@studenti.unipd.it}
+\newcommand{\telStudente}{3458723666}
 
 % Dati del Tutor Aziendale
-\newcommand{\nomeTutorAziendale}{nomeTutor}
-\newcommand{\cognomeTutorAziendale}{cognomeTutor}
-\newcommand{\emailTutorAziendale}{mail@mail.it}
-\newcommand{\telTutorAziendale}{+ 39 000 00 00 000}
-\newcommand{\ruoloTutorAziendale}{}
+\newcommand{\nomeTutorAziendale}{Michele}
+\newcommand{\cognomeTutorAziendale}{Massaro}
+\newcommand{\emailTutorAziendale}{m.massaro@vargroup.it}
+\newcommand{\telTutorAziendale}{}
+\newcommand{\ruoloTutorAziendale}{Tech Leader Mobile development e Project Manager}
 
 % Dati dell'Azienda
-\newcommand{\ragioneSocAzienda}{Azienda S.p.A}
-\newcommand{\indirizzoAzienda}{Via Roma 1, Roma (RM)}
-\newcommand{\sitoAzienda}{http://example.com/}
-\newcommand{\emailAzienda}{mail@mail.it}
-\newcommand{\partitaIVAAzienda}{P.IVA 12345678999}
+\newcommand{\ragioneSocAzienda}{UAN Company SRL}
+\newcommand{\indirizzoAzienda}{Via Piovola 138 50053 Empoli (FI)}
+\newcommand{\sitoAzienda}{}
+\newcommand{\emailAzienda}{}
+\newcommand{\partitaIVAAzienda}{P.IVA 04672910488}
 
 % Dati del Tutor Interno (Docente)
 \newcommand{\titoloTutorInterno}{Prof.}
-\newcommand{\nomeTutorInterno}{NomeDocente}
-\newcommand{\cognomeTutorInterno}{CognomeDocente}
+\newcommand{\nomeTutorInterno}{Tullio}
+\newcommand{\cognomeTutorInterno}{Vardanega}
 
 \newcommand{\prospettoSettimanale}{
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+        \item \textbf{Sprint 1 (Durata 1 settimana/40 ore)}
+
+        Lo scopo del primo sprint di lavoro per lo studente è quello di andare ad apprendere:
         \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item Metodologia di lavoro agile;
+            \item Scrittura delle user stories specifiche del progetto di stage da realizzare;
+            \item Apprendere le tecnologie e linguaggi di programmazione che saranno utilizzati per la realizzazione del progetto.
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
+
+        \item \textbf{Sprint 2 (Durata 3 Settimane/120 ore)} 
+
+        Creazione della web app che permetta la gestione dei flussi di caricamento del documento word, creazione del prompting e flussi di interazione con l’utente.
+
+        \item \textbf{Sprint 3 (Durata 3 Settimane/120 ore)} 
+
+        Sviluppo di processi di automazione e generazione che dati in input le informazioni fornite dall’utente, interagiscono con i servizi di Generative AI di AWS per la creazione dei contenuti.
+        
+        \item \textbf{Sprint 1 (Durata 1 settimana/40 ore)}     
+        
+        Attività di testing e produzione della documentazione del lavoro svolto.
     \end{itemize}
-}
-
-% Indicare il totale complessivo (deve essere compreso tra le 300 e le 320 ore)
-\newcommand{\totaleOre}{}
-
-\newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
-	 
-}
-
-\newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
-}
-
-\newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
 }
